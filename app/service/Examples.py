@@ -15,6 +15,8 @@ class Examples:
             return {'left': 130, 'top': 373, 'width': 63, 'height': 62}
         elif self.selected_example_image == 'bingo3.PNG':
             return {'left': 8, 'top': 314, 'width': 55, 'height': 55}
+        elif self.selected_example_image == 'bingo4.PNG':
+            return {'left': 3, 'top': 309, 'width': 64, 'height': 64}
         elif self.selected_example_image == 'loading_screen.PNG':
             return {'left': 210, 'top': 235, 'width': 88, 'height': 36}
         elif self.selected_example_image == 'tournament1.PNG':
