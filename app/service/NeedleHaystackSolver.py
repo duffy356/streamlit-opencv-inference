@@ -6,16 +6,16 @@ import cv2
 LocatedResult = collections.namedtuple('LocatedResult', 'confidence box')
 Box = collections.namedtuple('Box', 'left top width height')
 
-class NeedleHaystackHelper:
+class NeedleHaystackSolver:
 
     @staticmethod
     def locate_all_opencv(needleImage, haystackImage, grayscale=True, limit=10_000, region=None, step=1,
                           confidence=0.999):
         confidence = float(confidence)
 
-        needleImage = NeedleHaystackHelper.load_cv2(needleImage, grayscale)
+        needleImage = NeedleHaystackSolver.load_cv2(needleImage, grayscale)
         needleHeight, needleWidth = needleImage.shape[:2]
-        haystackImage = NeedleHaystackHelper.load_cv2(haystackImage, grayscale)
+        haystackImage = NeedleHaystackSolver.load_cv2(haystackImage, grayscale)
 
         if region:
             haystackImage = haystackImage[region[1]:region[1]+region[3],

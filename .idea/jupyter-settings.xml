@@ -3,7 +3,15 @@
   <component name="JupyterPersistentConnectionParameters">
     <option name="moduleParameters">
       <map>
-        <entry key="$PROJECT_DIR$/../../../../../TechnikumWien/3. Semester/Solution Deployment &amp; Communication/dsc-final-project-epic-ml-visualizer/.idea/dsc-final-project-epic-ml-visualizer.iml">
+        <entry key="$PROJECT_DIR$/../../../../TechnikumWien/3. Semester/Solution Deployment &amp; Communication/dsc-final-project-epic-ml-visualizer/.idea/dsc-final-project-epic-ml-visualizer.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="managed" value="true" />
+              <option name="sdkHomePath" value="$USER_HOME$/venv/bin/python" />
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/TechnikumWien/3. Semester/Solution Deployment &amp; Communication/dsc-final-project-epic-ml-visualizer/.idea/dsc-final-project-epic-ml-visualizer.iml">
           <value>
             <JupyterConnectionParameters>
               <option name="managed" value="true" />
