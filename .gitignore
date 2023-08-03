@@ -24,9 +24,5 @@ tokens.yaml
 # ignore log files
 *.log*
 
-# ignore google drive tmp files
-**/.tmp.driveupload
-
-# generated reports
-/microservices/dashboard/generated_reports/
-/thesis/temp_timeline_NA1_4082228871.json
+# articles folder
+/articles
