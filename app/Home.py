@@ -7,8 +7,8 @@ from numpy import asarray
 from streamlit_cropper import st_cropper
 from PIL import Image, ImageDraw
 
-from app.service.Examples import Examples
-from app.service.NeedleHaystackSolver import NeedleHaystackSolver
+from service.Examples import Examples
+from service.NeedleHaystackSolver import NeedleHaystackSolver
 
 examples = Examples()
 
