@@ -16,7 +16,7 @@ Examples.py contains code for demonstrating the embedded examples.
 
 ## Further readings
 
-Article 1: [Orchestrating an image template matching web app with just 200 LOC]()  
-Article 2: [Reviewing the locateOnScreen function of pyautogui](TODO)
+Article 1: [Composing an image template matching web app with just 200 LOC](https://medium.com/@dominik.bauer/composing-an-image-template-matching-web-app-with-just-200-loc-13dcf8a77e14)  
+Article 2: [Reviewing the locateOnScreen function of PyAutoGUI](https://medium.com/@dominik.bauer/reviewing-the-locateonscreen-function-of-pyautogui-bb82ddf80739)
 
 

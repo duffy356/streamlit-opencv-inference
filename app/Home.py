@@ -56,7 +56,7 @@ with col3.container():
     col5.image(cropped_img)
 
     # other options
-    confidence = col6.slider("confidence", min_value=0.25, max_value=1.00, value=0.95)
+    confidence = col6.slider("confidence", min_value=0.10, max_value=0.999, value=0.95)
     grayscale = col6.checkbox("grayscale", value=True)
     reduce_hits = col6.checkbox("reduce hits", value=True)
 
